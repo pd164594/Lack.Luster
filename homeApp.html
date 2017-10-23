@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lack.Luster</title>
+	 <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <meta charset="utf-8">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+
+	    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+
+	<!-- Skeleton CSS CDN Link -->
+	<link rel="stylesheet" href="skeleton.css">
+
+	<!--  Local Stylesheet-->
+	<link rel="stylesheet" href="style.css">
+
+	  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/LL.png">
+
+
+
+</head>
+<body background="images/sayagata-400px.png">
+	
+	<!-- This is the Main Skeleton Div Shell -->
+	<div class="container-fluid">
+
+
+
+		<!-- -========================================================================= -->
+		<!-- This is the True Header -->
+		<!-- ========================================================================== -->
+		<div class="row">
+			
+
+			<div class="column-one">
+				<span><img src="images/threelines.png">
+					
+
+				<a href="index.html"><span id="logout"><u>Logout</u></span></a>
+
+
+				<span id="LackLuster"><h1>Lack<span id="period">.</span>Luster</h1><h2>Personal Cryptocurrency portfolio with realtime market capitalizations</h2></span>
+
+			</div>
+
+		</div>
+		<!-- -========================================================================= -->
+		<!-- This is the True Header -->
+		<!-- ========================================================================== -->
+
+
+
+<!-- Adding line breaks to section off our HTML Document -->
+<hr>
+
+
+
+		<!-- ============================================================================== -->
+		<!-- This is the main button creation area/Header -->
+		<!-- ============================================================================== -->
+		<div class="row">
+			<div class="four columns" id="addCryptoDiv"> <span id="spacingCheat1"></span>
+						  <form><span id="addCurrencyLabel">Add a cryptocurrency</span><br id="spacingCheat">
+					      <input type="text" id="currency-input" placeholder="Search for currency"><br>
+					      <button class="btn" id="add-currency" type="submit" value="Submit">submit</button></form>
+			</div>
+			
+			<div class="four columns balance">
+					<h4 id="balance">Portfolio Value: $<span id="myValue"></span></h4>
+			</div>
+
+
+			<div class="three columns" id="currency-dropdownHolder"><br>
+				<span id="pick-currency">Pick a currency</span><br><br>
+
+				<div id="button-holder"></div>
+
+			</div>
+			
+			<div class="one column">  </div>
+
+		</div>
+
+		<hr>
+		<!-- ============================================================================== -->
+		<!-- This is the main button creation area/Header -->
+		<!-- ============================================================================== -->
+
+
+
+	
+
+	<!-- ================================================================================== -->
+	<!-- Main body of all the content.  -->
+	<!-- =================================================================================== -->
+	<div class="row">
+		<div class="nine columns" id="portfolio">
+			<span id="portfolio"><h3 id="myCryptoAssets">My Crypto Assets</h3></span>
+
+		</div>
+		
+		<!-- <div class="one column">
+		</div> -->
+
+		<div class="threecolumns" id="whole-ticker"><br><br>
+			<span id="top10Span"><h5 id="top10">Top 10 Currency Ticker</h5></span>
+
+			<!-- This div actually is where out ticker values live.  -->
+			<div id="tickerList"></div>
+			
+		</div>
+	</div>
+	<!-- ================================================================================== -->
+	<!-- Main body of all the content.  -->
+	<!-- =================================================================================== -->
+
+
+
+
+<!-- End of Main Skeleton DIV -->
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="ajax.js"></script>
+
+</body>
+</html>

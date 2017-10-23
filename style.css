@@ -1,0 +1,160 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#period{
+	color: #0FFF95;
+	font-size: 75px;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+#currency-selector{
+	float: right;
+	top: 5px;
+	
+}
+
+#pick-currency{
+	float:right;
+
+}
+
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+h4{
+	text-align: center ;
+}
+h2{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+#crypto-name{
+	font-size: 30px;
+}
+
+#balance{
+	line-height:  150px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.ticker{
+	font-weight:  bold;
+	font-size: 15px;
+	/*border-width: 10px;
+	border-color: black;*/
+}
+
+span{
+	text-align: left;
+}
+
+.searched{
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+
+.usd-to-crypto-box {
+    width: 200px;
+    position: relative;
+}
+
+.hidden{
+	opacity: .05;
+}
+
+#usd-to-crypto-box{
+	font-weight:  bold;
+	font-size: 30px;
+	border-width: 10px;
+	border-color: black;
+}
+
+#logout{
+	float: right;
+}
+
+.searchedDetails, .converter-result{
+	font-size: 18px;
+
+}
+
+
+#tickerList{
+	height: 450px;
+	overflow: scroll;
+}
+
+#logout{
+	font-size: 20px;
+	margin-right: 1%;
+}
+
+#addCryptoDiv{
+	margin-left: 1%;
+}
+
+#portfolio{
+	margin-left: 1%;
+}
+
+#whole-ticker{
+	float: right;
+	margin-right: 1%
+}
+
+#top10{
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	text-align: center;
+}
+
+hr{
+   border: 1px solid #000000;
+}
+
+#addCurrencyLabel{
+	font-size: 20px;
+}
+
+#pick-currency{
+	font-size: 20px;
+	float:right;
+}
+
+#currency-dropdownHolder{
+	float:right;
+	margin-right: 1%;
+}
+
+#currencyDropList{
+	float:right;
+}
+
+select{
+	float: right;
+}
+
+a{
+	color:#000000;
+}
+
+#spacingCheat1{
+	margin-bottom: 1000px;
+}
+
+img{
+	height: 30px;
+	width: 30px;
+	margin-left: 1%;
+}
+
